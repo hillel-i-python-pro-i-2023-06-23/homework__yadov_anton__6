@@ -1,0 +1,1 @@
+from .astronauts import average
