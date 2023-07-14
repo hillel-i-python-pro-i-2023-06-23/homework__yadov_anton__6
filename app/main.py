@@ -13,4 +13,5 @@ def main():
 
     print('Who is There\n')
     astros()
+    print('\n')
     average()

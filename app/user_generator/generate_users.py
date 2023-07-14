@@ -1,12 +1,12 @@
 from faker import Faker
-from typing import  NamedTuple
+from typing import NamedTuple
 from collections.abc import Iterator
 class User(NamedTuple):
     name: str
     email: str
 
 faker=Faker()
-def generate_user() ->User:
+def generate_user()->User:
     return User(
         name= faker.first_name(),
         email= faker.email(),
