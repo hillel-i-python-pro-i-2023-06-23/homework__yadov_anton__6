@@ -16,9 +16,7 @@ def generate_users(amount: int =100) -> Iterator[User]:
         yield generate_user()
 
 
-def print_users(users, is_print_index=False):
+def print_users(users):
     for index, user in enumerate(users):
-        string= (f'Name: {user.name}, email:{user.email}')
-        if is_print_index:
-            string = (f'{index} Name: {user.name}, email: {user.email}')
+        string = (f'{index} Name: {user.name}, email: {user.email}')
         print(string)
