@@ -1,7 +1,7 @@
 import requests
 from flask import Flask
-from app.config import FILES_INPUT_DIR
-from app.user_generator import generate_users
+from application import FILES_INPUT_DIR
+from application.user_generator import generate_users
 import pandas as pd
 
 app = Flask(__name__)

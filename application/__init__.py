@@ -1,0 +1,1 @@
+from application.config import FILES_INPUT_DIR
