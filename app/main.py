@@ -1,5 +1,5 @@
 from app.who_is_there import astros
-from app.average import average
+from app.mean import average
 from app.user_generator import print_users
 from app.reading_a_file import reading_a_file
 def main():

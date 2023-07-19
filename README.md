@@ -1,7 +1,7 @@
-# Homework 6
+# Homework 8
 
 ---
-![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/shared__docker__example_2023_06_23/actions/workflows/main-workflow.yml/badge.svg)
+![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework__yadov_anton__6/blob/main/.github/workflows/main.yml)
 
 ## 🏠 Homework
 
